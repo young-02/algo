@@ -18,6 +18,4 @@ function solution(my_string) {
 }
 
 //풀이 
-스프레드 연산자 [...]를 통해 문자열 -> 배열로 변환 ex) let str ='abc' -> [...str] -> ['a','b','c'
-                                                                   
-                                                                   ]
+스프레드 연산자 [...]를 통해 문자열 -> 배열로 변환 ex) let str ='abc' -> [...str] -> ['a','b','c']
