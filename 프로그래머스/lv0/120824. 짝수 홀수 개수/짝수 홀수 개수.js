@@ -8,7 +8,15 @@ function solution(num_list) {
       }else{
           odd++
       }
-    },0)
+    })
     answer.push(even,odd)
     return answer;
 }
+
+
+//다른풀이
+
+function solution(num_list) {
+    return [num_list.filter(e => e%2 ===0).length, num_list.filter(e => e%2).length]
+}
+
