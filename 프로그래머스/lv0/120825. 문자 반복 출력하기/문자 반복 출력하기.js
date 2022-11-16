@@ -11,4 +11,4 @@ console.log(num.repeat(2))// '123123'
 
 let arr = ['a','b','c']
 arr.map(str => str.repeat(n))
-console.log(arr.repeat(2))//["aa","bb","cc","dd","ee"]
+console.log(arr.repeat(2))//["aa","bb","cc"]
