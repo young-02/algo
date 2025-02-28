@@ -9,10 +9,7 @@ let input = [];
 rl.on('line', function (line) {
     input = line.split(' ');
 }).on('close', function () {
-    let answer = ''
-      for(let text of input){
-          answer += text
-      }
-    console.log(answer)
+    
+ console.log(input.join(''))
     
 });
