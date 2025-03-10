@@ -8,8 +8,6 @@ function solution(myString, pat) {
         //B->A
         }else if(str === "B"){
             string +="A"
-        }else{
-            string += str
         }
     }
     return string.includes(pat) ? 1: 0
